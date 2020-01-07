@@ -9,3 +9,4 @@ const intervalTimer = setInterval(() => {
     clearInterval(intervalTimer);
   }
 }, ONE_SECOND);
+
