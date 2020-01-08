@@ -6,17 +6,7 @@ container:
   cpu: 0.2
   memory: 200Mb
 
-task1_task:
-  1_script: *script
-  2_script: *script
-  3_script: *script
-  4_script: *script
-  5_script: *script
-  6_script: *script
-  7_script: *script
-  8_script: *script
-  9_script: *script
-  10_script: *script
-
-
+screenshot_test_task:
+  trigger_type: manual
+  stuff_script: *script
 
